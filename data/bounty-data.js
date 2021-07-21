@@ -24,7 +24,7 @@ const monsters = {
         gold: 0
     }, {
         id: 'fight',
-        description: 'Get ready for battle',
+        description: 'Get ready for battle!',
         result: 
             `You notice that only a few monsters have made it through the gate. You feel a bit confident in your abilities to ward off the monsters yourself.
             Taking out your weapon, you prepare yourself to battle the monsters. You kill a couple of the fiends but notice that the group is
@@ -36,7 +36,7 @@ const monsters = {
         gold: 0
     }, {
         id: 'bomb',
-        description: 'Blow them the @&*$ up',
+        description: 'Blow them the @&*$ up!!',
         result:
             `As the monsters are feeding on the nearest people, you notice some barrels filled with gun powder that was stored near the gate. You find a tourch near you and chuck it to 
             the barrels. Causing a huge explosion and killing most of the monsters. The remaining fiends are terrified of the explosion and start running away from Angels grove. It was messy but at least you killed the monsters.
@@ -46,104 +46,114 @@ const monsters = {
     }]
 };
 
-const dragon = {
-    id: 'dragon',
-    title: 'A HAIRY!!! Dragon',
+const ripper = {
+    id: 'ripper',
+    title: 'Find and take care of this "Ripper"',
     map: {
         top: '17%',
         left: '37%'
     },
-    image: 'dragon.jpg',
-    audio: 'dragon.wav',
-    action: 'dragon-growl.aiff',
+    image: '',
     description: `
-        You run to a nearby village you have heard is being
-        terrorized by a dragon. Sure enough as you rent a room
-        in a local inn, you go outside and see the dragon about
-        to lay seige! What do you do?
+        Apparently they have been people missing in the middle of the night, but knowing Angels Grove, this is quite common. The town's people are calling this entity the "Ripper." The thing is that it has been affecting the Naked Devil buisness at night.
+        Lucy isn't too happy about it and she is too busy to put an offical request up for it. You believe that helping her out will not only put gold in your pocket, but will also keep more bounties coming.
+        After talking to Lucy about it, you find out that rumors say that these disaperences seem to happen after midnight on a night of a new moon when it is the darkest. Lucky for you, that happens to be tonight.
+        Got to make sure you have gold to eat right? I mean, help people of Angels Grove! You decide to hangout a little ways from the hub in an ally until it is after midnight. After a while of waiting, you hear a scream
+        echo in the distance. After following the source of the sound, you find a shadowy figure standing over a body just staring down at it. What do you do?
     `,
     choices: [{
         id: 'run',
-        description: 'Get the hell out of the village',
+        description: 'RUN AWAY!',
         result: `
-            You high tail it in the opposite direction. Luckily,
-            in the panic you find a bag on the ground with 15 gold.
-            Unluckily, you trip over a discarded wagon wheel on your
-            way out of town and take 40 hp damage. 
+            You decide that the shadowy figure is way too scary to deal with. The money is good, but it is worthless if you are dead. You take a step back and accidently kick a piece of broken glass. The sound echos 
+            through the alley. The shadowy figure turns and just stares in your direction and you can't seem to see their face or any features at all. You only notice that they are carring a sickle that is usually to harvest grain,
+            but is instead slicing humans and covered in blood. They take a step in your direction and slowly start walking towards you. Frozen in fear, they make their way to you. Even up close, you can't make out any features.
+            It's as if you are staring into a dark abyss. You hear a snicker as the figure continues to walk past you. When you regain your senses, you decide to look back and don't see anything. The quest was unsuccessful and 
+            and have nothing to report back to Lucy. You take 5 damage from the continues eerie feeling that you may have for the rest of your life. Too bad for the victim, but at least you are still alive.
         `,
-        hp: -35,
-        gold: 15
-    }, {
-        id: 'fight',
-        description: 'Fiiiiiggghhhttt!',
-        result: `
-            You attempt to charge towards the dragon, who sees you approach
-            and let's loose a fireball. You wake up the next morning and the
-            village has been completely burned to the ground.
-            Oh, and you take 45 hp damage.
-        `,
-        hp: -45,
+        hp: -5,
         gold: 0
     }, {
-        id: 'archer',
-        description: 'Emulate that guy from LOR who shot an arrow',
+        id: 'fight',
+        description: 'Get ready for Battle!',
         result: `
-            Inspired by the legend of Bard the Bowman, you notice a
-            stunned archer standing nearby and take their bow and quiver,
-            climb to the top of a tall tower and take aim. On the dragon's
-            next pass you steady your aim and let one fly. Amazingly,
-            you strike the dragon in the eye, piercing into the brain and
-            killing the dragon instantly. The villagers declare you their hero
-            and award you 90 gold.
+            You decide to fight the Ripper in their element. You take out a weapon and prepare for battle. Without giving the figure a chance, you decide to charge at the shadow.
+            You grab your weapon and swing towards the Ripper hoping to stop their murderous rampage once and for all. The thing is, your weapon doesn't seem to make contact with 
+            them and your weapon goes through them as if you were swinging through air. Shocked that it didn't seem to damage them in the slightest, the Ripper took that oppurtunity 
+            to take their attack. The next thing you know, you feel an excruciating and buring pain through your chest. With a sickle that was used for their last victim, the Mysterious 
+            figure had charged it through your chest. As the fatal wound had been shapped around the sickle, it has cut through your heart and lungs in the process. In your final moments, 
+            the Ripper pulls out the weapon as fast as it was thrusted through. As you collapse on the floor in a pool of your own blood, you hear laughter as the figure vanishes in the abyss.
+            The same abyss that clouds your vision as your life fades with your final breath.
+        `,
+        hp: -50,
+        gold: 0
+    }, {
+        id: 'light',
+        description: 'Shine a light on them!',
+        result: `
+            You decide that the only way to fight this darkness is to first see what you are fighting. Trying not to alarm the figure, you slowly take out a lamp that you had.
+            While lighting the lamp, the Ripper quickly turns toward you. Noticing that you are lighting the lamp, the figure starts to charge at you with a bloody sickle raised 
+            up high and getting ready to strike. The figure doesn't make it in time when you spark the lamp up and shine the light on the mysterious entity. The briliant light of the lamp 
+            shines directly on the shadow. You start to hear cries of anguish from the fiend as they stop in their tracks. Within the allyway, you see a small barrel of oil for soaking the torches in.
+            You throw the lamp at the barrel of oil and an even greater flame is produced. The Ripper drops the bloody sickle and disinigrates from bathing in the light of the flames.
+            With the Ripper gone, you grab the sickle to bring back as proof for the victory to Lucy. She is happy that you have taken the time to help her and rewards you with 90 gold.
+            Hopefully The Naked Devil buisness can go back to normal.
         `,
         hp: 0,
         gold: 90
     }]
 };
 
-const treasure = {
-    id: 'treasure',
-    title: 'A Golden Treasure',
+const theif = {
+    id: 'theif',
+    title: 'The Theif, the Merc, and the Merchant',
     map: {
         top: '31%',
         left: '5%'
     },
-    prerequisites: ['dragon', 'monsters'],
-    image: 'treasure-chests.png',
-    audio: 'treasure-chests.wav',
-    action: 'chest-opening.wav',
+    image: '',
+    // audio: 'treasure-chests.wav',
+    // action: 'chest-opening.wav',
     description: `
-        As you enter the quest chamber you notice three chests before you.
-        Just as you start to imagine the wealth, you see a giant serpent
-        emerge from the back of the chamber. You'll need to make a run for it,
-        but you have time to open one chest before you take off. Which one 
-        do you choose?
+        You see a post on the Bounty Board about a theif that is stealing from the merchants here in Angels Grove. You decide to take the quest, because it would be hard to get supplies if they are being stolen.
+        You decide to take the quest and go check out the merchant who posted it. On your way to the the store, you find a commotion happening in front of your destination. Their are three people in front of the 
+        store and you find there has been a recent murder. The one who was murdered was the merchant who made the post. The three people who are standing in front are the neighbor of the merchant, a guard, and the suspected theif.
+        Apparently the guard has detained the suspected theif for the murder of the merchant. The neighbor was the one who found the merchant dead and called a guard and the suspect was someone who was near the scene of the crime
+        and doesn't have a strong enough alibi. You decide that something seems off about the three, and to make a full report on the quest to Lucy, you decide to ask the three about the situation. Things aren't always as they seem 
+        here in Angels Grove. You start to ask the three of them questions of their alibi, maybe there is a liar in this questionable situation.
     `,
     choices: [{
-        id: 'wooden',
-        description: 'A Wooden Chest',
-        result: 'You grab 40 gold pieces!',
+        id: 'neighbor',
+        description: 'It was the neighbor!',
+        result: `You decide the the neighbor alibi is a little off and accused the neighbor of the murder. It turns out you were right. Apparently, the neighbor had a reason to kill the merchant.
+        The neighbor was also a rival to the merchant and was stealing from other merchants to fill their wares for buyers and to make popularity for having stock of various materials. the neighbor is booked
+        and taken to the local prison. The quest was succsessful and you report back to Lucy. You are rewarded 40 gold! 
+        `,
         hp: 0,
         gold: 40
     }, {
-        id: 'golden',
-        description: 'A Golden Chest',
-        result: 'Oh no! The chest is booby trapped with poison and you take 50 hp damage',
+        id: 'guard',
+        description: 'It was the Guard!',
+        result: `Out of all the corrupted guards in Angels Grove, this guard seems to be the only righteous one. For reasons of preventing an arrest and falsly accusing the guard, they decide to detain you too. 
+        You then were taken to the prison of Angels Grove. A lot of the inmates hates mercenaries because they are the reason they were taken in to the jail in the first place. Within that same night, the prisoners 
+        visit you in your sleep. They grab at your arms and legs and bound you down as they take turns stabbing you with various objects. You didn't survive one day in prison and died that same day. `,
         hp: -50,
         gold: 0
     }, {
-        id: 'jeweled',
-        description: 'A Jeweled Chest',
-        result: 'A warm light engulfs you and you gain 35 hp',
-        hp: 35,
+        id: 'suspect',
+        description: 'It was the theif!',
+        result: `You decide that it was the suspect. I mean they have already taken the time to detain them. Maybe your input isn't needed and you go on your way to report. When you make your report, Lucy is happy of the completed bounty. As soon as you were about to get the
+        gold, you here that there is still a theif running around stealing from locals. It turns out that they took an innocent person to prison and that they were executed. Lucy then puts the gold away and you live with the guilt of helping to send an innocent human to their death.`,
+        hp: 0,
         gold: 0
     }]
 };
 
-const bounties = {
-    monsters, 
-    treasure,
-    dragon
-};
+const bounties = [
+    monsters,
+    ripper,
+    theif
+    
+];
 
 export default bounties;

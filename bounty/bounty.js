@@ -1,9 +1,9 @@
-import loadProfile from '../common/load-profile';
-import { getMercenary, saveMercenary } from '../data/storage-data';
-import bounties from '../data/bounty-data';
-import findById from '../common/find-by-id';
-import createChoice from './create-choice';
-import scoreBounty from './score-bounty';
+import loadProfile from '../common/load-profile.js';
+import { getMercenary, saveMercenary } from '../data/storage-data.js';
+import bounties from '../data/bounty-data.js';
+import findById from '../common/find-by-id.js';
+import createChoice from './create-choice.js';
+import scoreBounty from './score-bounty.js';
 
 loadProfile();
 
@@ -13,14 +13,14 @@ const bountyId = searchParams.get('id');
 
 const bounty = findById(bounties, bountyId);
 
-if(!bounty) {
+if (!bounty) {
     window.location = '../map';
 }
 
 
 const title = document.getElementById('title');
-const image = document.getElementById('image');
-const audio = document.getElementById('audio');
+// const image = document.getElementById('image');
+// const audio = document.getElementById('audio');
 const description = document.getElementById('description');
 const choiceForm = document.getElementById('choice-form');
 const choices = document.getElementById('choices');
@@ -32,7 +32,7 @@ const duskDescription = document.getElementById('dusk-description');
 title.textContent = bounty.title;
 
 
-description.textContent = quest.description;
+description.textContent = bounty.description;
 
 
 

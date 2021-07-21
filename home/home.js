@@ -13,5 +13,5 @@ mercenaryForm.addEventListener('submit', function(event) {
 
     saveMercenary(mercenary);
 
-    window.location = './map/map.html';
+    window.location = './map';
 });
