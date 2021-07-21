@@ -17,7 +17,7 @@ const monsters = {
             `You notice that not that many guards are around. They are most likely enjoying the sinful town that is Angels Grove.
             You find a tower near the gate with a big bell. Running up the tower, you reach the bell and sound an alarm to warn 
             the townspeople and hopefully call the guards. Safe in the tower, the bell rings loudly through the town. The townsfolk are runnning to find shelter and to get away.
-            A few guards came to the gate, some stumbling from drinking on the job. The monsters were chased out and the guards congradulate themselves on their success.
+            A few guards came to the gate, some stumbling from drinking on the job. The monsters were chased out and the guards congratulate themselves on their success.
             They quickly go back to their activities and you were left alone. No one came to thank you for your warning and they definetly didn't pay you.
             But hey, you're a hero, right?`,
         hp: 0,
