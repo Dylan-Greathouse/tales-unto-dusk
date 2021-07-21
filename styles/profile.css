@@ -14,6 +14,12 @@ header {
     box-shadow: var(--shadow);
 }
 
+div img {
+    height: 25px;
+    width: 25px;
+}
+
+
 .profile {
     font-size: 20px;
 }
@@ -30,9 +36,16 @@ header {
     margin-right: 10px;
 }
 
-
+.hidden{
+    display: none;
+}
 
 #dusk {
     padding: 20px;
 }
+
+section{
+    width: 400px;
+}
+
 

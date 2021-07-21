@@ -20,7 +20,7 @@ if (!bounty) {
 
 const title = document.getElementById('title');
 // const image = document.getElementById('image');
-// const audio = document.getElementById('audio');
+
 const description = document.getElementById('description');
 const choiceForm = document.getElementById('choice-form');
 const choices = document.getElementById('choices');
@@ -59,8 +59,6 @@ choiceForm.addEventListener('submit', function(event) {
     scoreBounty(choice, bounty.id, mercenary);
     saveMercenary(mercenary);
 
-// audio
-// audio goes here
 
     choiceForm.classList.add('hidden');
     dusk.classList.remove('hidden');

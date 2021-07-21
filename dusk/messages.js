@@ -11,7 +11,7 @@ export const deadGoldMessages = {
 };
 
 export const hpMessages = {
-    dead: 'you lay lifeless in Angels Grove,',
-    frail: 'you barley survived to see the sunrise,',
+    dead: 'you lay lifeless in Angels Grove',
+    frail: 'you barley survived to see the sunrise',
     healthy: 'you have conqured the night at Angels Grove! Ready to challenge the next day,',
 };
