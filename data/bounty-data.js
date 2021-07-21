@@ -120,14 +120,14 @@ const thief = {
         store and you find there has been a recent murder. The one who was murdered was the merchant who made the post. The three people who are standing in front are the neighbor of the merchant, a guard, and the suspected thief.
         Apparently the guard has detained the suspected theif for the murder of the merchant. The neighbor was the one who found the merchant dead and called a guard and the suspect was someone who was near the scene of the crime
         and doesn't have a strong enough alibi. You decide that something seems off about the three, and to make a full report on the quest to Lucy, you decide to ask the three about the situation. Things aren't always as they seem 
-        here in Angels Grove. You start to ask the three of them questions of their alibi, maybe there is a liar in this questionable situation.
+        here in Angels Grove. You start to interrogate the three on their alibi, maybe there is a liar in this questionable situation...
     `,
     choices: [{
         id: 'neighbor',
         description: 'It was the neighbor!',
         result: `You decide the the neighbor alibi is a little off and accused the neighbor of the murder. It turns out you were right. Apparently, the neighbor had a reason to kill the merchant.
-        The neighbor was also a rival to the merchant and was stealing from other merchants to fill their wares for buyers and to make popularity for having stock of various materials. the neighbor is booked
-        and taken to the local prison. The quest was succsessful and you report back to Lucy. You are rewarded 40 gold! 
+        The neighbor was also a rival to the merchant and was stealing from other merchants to fill their wares for buyers and to make popularity for having stock of various materials. The neighbor is booked
+        and taken to the local prison. The quest was succsessful and you report back to Lucy. You are rewarded with 40 gold! 
         `,
         hp: 0,
         gold: 40
@@ -135,13 +135,13 @@ const thief = {
         id: 'guard',
         description: 'It was the Guard!',
         result: `Out of all the corrupted guards in Angels Grove, this guard seems to be the only righteous one. For reasons of preventing an arrest and falsly accusing the guard, they decide to detain you too. 
-        You then were taken to the prison of Angels Grove. A lot of the inmates hates mercenaries because they are the reason they were taken in to the jail in the first place. Within that same night, the prisoners 
-        visit you in your sleep. They grab at your arms and legs and bound you down as they take turns stabbing you with various objects. You didn't survive one day in prison and died that same day. `,
+        You then were taken to the prison of Angels Grove. A lot of the inmates hate mercenaries because they are the reason they were taken in to the jail in the first place. Within that same night, the prisoners 
+        visit you in your sleep. They grab at your arms and legs and bound you down as they take turns stabbing you with various objects. You didn't survive in prison and died that same day. `,
         hp: -50,
         gold: 0
     }, {
         id: 'suspect',
-        description: 'It was the theif!',
+        description: 'It was the thief!',
         result: `You decide that it was the suspect. I mean they have already taken the time to detain them. Maybe your input isn't needed and you go on your way to report. When you make your report, Lucy is happy of the completed bounty. As soon as you were about to get the
         gold, you hear that there is still a theif running around stealing from locals. It turns out that they took an innocent person to prison and that they were executed. Lucy then puts the gold away and you live with the guilt of helping to send an innocent human to their death.
         you take 10 damage from the shame of your choice..`,
