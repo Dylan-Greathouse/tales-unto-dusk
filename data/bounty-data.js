@@ -104,9 +104,9 @@ const ripper = {
     }]
 };
 
-const theif = {
-    id: 'theif',
-    title: 'The Theif, the Merc, and the Merchant',
+const thief = {
+    id: 'thief',
+    title: 'The Thief, the Merc, and the Merchant',
     map: {
         top: '20%',
         left: '40%'
@@ -115,9 +115,9 @@ const theif = {
     // audio: 'treasure-chests.wav',
     // action: 'chest-opening.wav',
     description: `
-        You see a post on the Bounty Board about a theif that is stealing from the merchants here in Angels Grove. You decide to take the quest, because it would be hard to get supplies if they are being stolen.
+        You see a post on the Bounty Board about a thief that is stealing from the merchants here in Angels Grove. You decide to take the quest, because it would be hard to get supplies if they are being stolen.
         You decide to take the quest and go check out the merchant who posted it. On your way to the the store, you find a commotion happening in front of your destination. Their are three people in front of the 
-        store and you find there has been a recent murder. The one who was murdered was the merchant who made the post. The three people who are standing in front are the neighbor of the merchant, a guard, and the suspected theif.
+        store and you find there has been a recent murder. The one who was murdered was the merchant who made the post. The three people who are standing in front are the neighbor of the merchant, a guard, and the suspected thief.
         Apparently the guard has detained the suspected theif for the murder of the merchant. The neighbor was the one who found the merchant dead and called a guard and the suspect was someone who was near the scene of the crime
         and doesn't have a strong enough alibi. You decide that something seems off about the three, and to make a full report on the quest to Lucy, you decide to ask the three about the situation. Things aren't always as they seem 
         here in Angels Grove. You start to ask the three of them questions of their alibi, maybe there is a liar in this questionable situation.
@@ -152,7 +152,7 @@ const theif = {
 const bounties = [
     monsters,
     ripper,
-    theif
+    thief
     
 ];
 
