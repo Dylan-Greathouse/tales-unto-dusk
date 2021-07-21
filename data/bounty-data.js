@@ -7,7 +7,7 @@ const monsters = {
     },
     image: '',
     description:
-        ` You must take care of the fiends that are coming into Angels Grove with any means neccesary! Monsters are coming through the west gate, and they are attacking the villagers indiscriminately.
+        ` You must take care of the fiends that are coming into Angels Grove with any means neccesary! Monsters are charging in through the west gate, and they are attacking the villagers indiscriminately.
         Blood is covering the streets from their victims, you need to act fast! What will you do?`,
         
     choices: [{
