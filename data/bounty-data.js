@@ -143,7 +143,7 @@ const theif = {
         id: 'suspect',
         description: 'It was the theif!',
         result: `You decide that it was the suspect. I mean they have already taken the time to detain them. Maybe your input isn't needed and you go on your way to report. When you make your report, Lucy is happy of the completed bounty. As soon as you were about to get the
-        gold, you here that there is still a theif running around stealing from locals. It turns out that they took an innocent person to prison and that they were executed. Lucy then puts the gold away and you live with the guilt of helping to send an innocent human to their death.`,
+        gold, you hear that there is still a theif running around stealing from locals. It turns out that they took an innocent person to prison and that they were executed. Lucy then puts the gold away and you live with the guilt of helping to send an innocent human to their death.`,
         hp: 0,
         gold: 0
     }]
