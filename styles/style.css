@@ -23,7 +23,7 @@ body {
 }
 
 main {
-    background-color: rgb(32, 26, 104);
+    background-color: rgb(98, 89, 200);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,7 +32,7 @@ main {
 }
 
 section {
-    background-color: rgb(32, 26, 104);
+    background-color: rgb(107, 97, 219);
     width: 400px;
     max-width: 40%;
     display: flex;
@@ -47,7 +47,7 @@ section {
 }
 
 header {
-    background-color: rgb(34, 25, 130);
+    background-color: rgb(47, 35, 174);
     display: flex;
     justify-content: flex-end;
    
