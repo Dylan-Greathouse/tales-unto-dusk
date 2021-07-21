@@ -1,9 +1,20 @@
-
-.bounty-board{
+header {
+    background-color: rgb(47, 35, 174);
+    display: flex;
     justify-content: center;
+   
+    height: var(--header-height);
+    box-shadow: var(--shadow);
 }
 
-#bounties {
+body {
+    background-color: rgb(98, 89, 200);
+}
+
+main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
     background-image: url("../assets/map.jpg");
     background-size: contain;
@@ -11,6 +22,12 @@
     width: 800px;
     height: 1000px;
     margin: auto;
+   
+    /* margin-bottom: calc(var(--footer-height)); */
+}
+
+.bounty-board{
+    justify-content: center;
 }
 
 .bounty {

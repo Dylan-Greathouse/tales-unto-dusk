@@ -1,0 +1,16 @@
+main {
+    background-image: linear-gradient(rgb(14, 14, 188), rgb(139, 145, 210));
+}
+
+header {
+    background-color: rgb(47, 35, 174);
+    display: flex;
+    justify-content: center;
+   
+    height: var(--header-height);
+    box-shadow: var(--shadow);
+}
+
+.profile {
+    font-size: 20px;
+}

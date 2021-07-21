@@ -19,7 +19,7 @@ const monsters = {
             the townspeople and hopefully call the guards. Safe in the tower, the bell rings loudly through the town. The townsfolk are runnning to find shelter and to get away.
             A few guards came to the gate, some stumbling from drinking on the job. The monsters were chased out and the guards congradulate themselves on their success.
             They quickly go back to their activities and you were left alone. No one came to thank you for your warning and they definetly didn't pay you.
-            But hey, your a hero, right?`,
+            But hey, you're a hero, right?`,
         hp: 0,
         gold: 0
     }, {
@@ -29,7 +29,7 @@ const monsters = {
             `You notice that only a few monsters have made it through the gate. You feel a bit confident in your abilities to ward off the monsters yourself.
             Taking out your weapon, you prepare yourself to battle the monsters. You kill a couple of the fiends but notice that the group is
              getting bigger and bigger as more monsters are coming through the gate. After killing a few more, you feel exhausted from the fight. Spent, you miss 
-             your next attack and one of the monsters jumps on your back and takes a bite into your neck. Losing all the blood from the big bite makes you feel dizzy 
+             your next attack and one of the monsters jumps on your back and takes a bite into your neck. Losing all the blood from the fatal injury makes you feel dizzy 
              while all the monsters takes you down. You notice that no one is around you anymore while you take your final moments realizing that the townspeople could have fled without fighting the monsters.
              Your journey ends here as the monsters finish their feast.`,
         hp: -50,
