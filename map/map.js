@@ -12,7 +12,7 @@ loadProfile();
 const mercenary = getMercenary();
 
 if (died(mercenary) || finishedAllBounties(bounties, mercenary)) {
-    // window.location = '../dusk/';
+    window.location = '../dusk/';
 }
 
 const nav = document.getElementById('bounties');

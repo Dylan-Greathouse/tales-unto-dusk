@@ -1,7 +1,7 @@
 function makeMercenary(formData) {
     const mercenary = {
         name: formData.get('name'),
-        class: formData.get('class'),
+        job: formData.get('job'),
         hp: 50,
         gold: 0,
         completed: {}
@@ -15,7 +15,7 @@ function makeMercenary(formData) {
 
 export const newMercenary = (formData) => ({
     name: formData.get('name'),
-    class: formData.get('class'),
+    job: formData.get('job'),
     hp: 50,
     gold: 0,
     completed: {}

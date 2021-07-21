@@ -1,0 +1,30 @@
+
+.bounty-board{
+    justify-content: center;
+}
+
+#bounties {
+    position: relative;
+    background-image: url("../assets/map.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 1000px;
+    margin: auto;
+}
+
+.bounty {
+    position: absolute;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+}
+
+.bounty.completed {
+    color: whitesmoke;
+    font-size: .9em;
+}
+
+.bounty.completed:after {
+    content: ' ✔';
+}

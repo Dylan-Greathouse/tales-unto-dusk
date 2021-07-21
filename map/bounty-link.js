@@ -5,8 +5,8 @@ function bountyLink(bounty) {
    
     link.href = `../bounty/?id=${bounty.id}`;
 
-    // link.style.top = bounty.map.top;
-    // link.style.left = bounty.map.left;
+    link.style.top = bounty.map.top;
+    link.style.left = bounty.map.left;
     link.textContent = bounty.title;
 
     return link;

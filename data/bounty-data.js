@@ -2,8 +2,8 @@ const monsters = {
     id: 'monsters',
     title: 'Monsters in Angels Grove',
     map: {
-        top: '80%',
-        left: '40%',
+        top: '30%',
+        left: '10%',
     },
     image: '',
     description:
@@ -50,8 +50,8 @@ const ripper = {
     id: 'ripper',
     title: 'Find and take care of this "Ripper"',
     map: {
-        top: '17%',
-        left: '37%'
+        top: '55%',
+        left: '35%'
     },
     image: '',
     description: `
@@ -108,8 +108,8 @@ const theif = {
     id: 'theif',
     title: 'The Theif, the Merc, and the Merchant',
     map: {
-        top: '31%',
-        left: '5%'
+        top: '20%',
+        left: '40%'
     },
     image: '',
     // audio: 'treasure-chests.wav',
