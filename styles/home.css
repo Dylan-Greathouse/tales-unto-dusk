@@ -1,3 +1,9 @@
+html{
+    background-image: url('../assets/stars.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 header {
     background-color: rgb(47, 35, 174);
     display: flex;

@@ -1,5 +1,13 @@
+html{
+    background-image: url('../assets/stars.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 main {
     background-image: linear-gradient(red, yellow);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -13,4 +21,9 @@ header {
 
 .profile {
     font-size: 20px;
+}
+
+div img {
+    height: 25px;
+    width: 25px;
 }

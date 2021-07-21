@@ -1,6 +1,6 @@
 const monsters = {
     id: 'monsters',
-    title: 'Monsters in Angels Grove',
+    title: "Monsters in Angels' Grove",
     map: {
         top: '30%',
         left: '10%',
@@ -69,9 +69,9 @@ const ripper = {
             through the alley. The shadowy figure turns and just stares in your direction and you can't seem to see their face or any features at all. You only notice that they are carring a sickle that is usually to harvest grain,
             but is instead slicing humans and covered in blood. They take a step in your direction and slowly start walking towards you. Frozen in fear, they make their way to you. Even up close, you can't make out any features.
             It's as if you are staring into a dark abyss. You hear a snicker as the figure continues to walk past you. When you regain your senses, you decide to look back and don't see anything. The quest was unsuccessful and 
-            and have nothing to report back to Lucy. You take 5 damage from the continues eerie feeling that you may have for the rest of your life. Too bad for the victim, but at least you are still alive.
+            and have nothing to report back to Lucy. You take 15 damage from the continues eerie feeling that you may have for the rest of your life. Too bad for the victim, but at least you are still alive.
         `,
-        hp: -5,
+        hp: -15,
         gold: 0
     }, {
         id: 'fight',
@@ -143,8 +143,9 @@ const thief = {
         id: 'suspect',
         description: 'It was the theif!',
         result: `You decide that it was the suspect. I mean they have already taken the time to detain them. Maybe your input isn't needed and you go on your way to report. When you make your report, Lucy is happy of the completed bounty. As soon as you were about to get the
-        gold, you hear that there is still a theif running around stealing from locals. It turns out that they took an innocent person to prison and that they were executed. Lucy then puts the gold away and you live with the guilt of helping to send an innocent human to their death.`,
-        hp: 0,
+        gold, you hear that there is still a theif running around stealing from locals. It turns out that they took an innocent person to prison and that they were executed. Lucy then puts the gold away and you live with the guilt of helping to send an innocent human to their death.
+        you take 10 damage from the shame of your choice..`,
+        hp: -10,
         gold: 0
     }]
 };
