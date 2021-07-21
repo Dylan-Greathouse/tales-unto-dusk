@@ -14,7 +14,7 @@ function loadProfile() {
     }
 
     name.textContent = mercenary.name;
-    job.src = '' + mercenary.job + '.png';
+    job.src = '../assets/avatar/' + mercenary.job + '.png';
     gold.textContent = mercenary.gold;
 
     if (died(mercenary)) {
