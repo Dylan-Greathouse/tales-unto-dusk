@@ -41,10 +41,8 @@ section {
 }
 
 header {
-    background-color: rgb(47, 35, 174);
     display: flex;
     justify-content: flex-end;
-   
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
@@ -62,15 +60,10 @@ h2 {
     font-weight: bold;
 }
 
-/* .gutter-right {
-    margin-right: 20px;
-} */
 
 
 
-header img {
-    height: var(--header-height);
-}
+
 
 p {
     margin: var(--gutter);

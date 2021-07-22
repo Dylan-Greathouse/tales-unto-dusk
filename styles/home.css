@@ -1,24 +1,26 @@
 html{
-    background-image: url('../assets/stars.gif');
+    background-image: url('../assets/town.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 header {
-    background-color: rgb(47, 35, 174);
+    background-image: url('../assets/town.jpg');
     display: flex;
-    justify-content: center;
-   
+    justify-content: space-between;
+   flex-direction: column;
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
+
 
 main {
     background-image: linear-gradient(rgb(14, 14, 188), rgb(139, 145, 210));
 }
 
 div img {
-    height: 35px;
-    width: 35px;
+    height: 200px;
+    width: 500px;
     border-radius: 25%;
 }
+

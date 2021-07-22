@@ -5,7 +5,7 @@ const monsters = {
         top: '30%',
         left: '10%',
     },
-    image: '',
+    image: 'monsters.jpg',
     description:
         ` You must take care of the fiends that are coming into Angels Grove with any means neccesary! Monsters are charging in through the west gate, and they are attacking the villagers indiscriminately.
         Blood is covering the streets from their victims, you need to act fast! What will you do?`,
@@ -40,9 +40,9 @@ const monsters = {
         result:
             `As the monsters are feeding on the nearest people, you notice some barrels filled with gun powder that was stored near the gate. You find a tourch near you and chuck it to 
             the barrels. Causing a huge explosion and killing most of the monsters. The remaining fiends are terrified of the explosion and start running away from Angels grove. It was messy but at least you killed the monsters.
-            You return to Lucy to report in the quest. A little annoyed that you caused some structual damage to the west gate, but she can't argue against the means if you technically completed the bounty. You earn 50 gold!`,
+            You return to Lucy to report in the quest. A little annoyed that you caused some structual damage to the west gate, but she can't argue against the means if you technically completed the bounty. You earn 20 gold!`,
         hp: 0,
-        gold: 50
+        gold: 20
     }]
 };
 
@@ -53,7 +53,7 @@ const ripper = {
         top: '55%',
         left: '35%'
     },
-    image: '',
+    image: 'shadow.jpg',
     description: `
         Apparently they have been people missing in the middle of the night, but knowing Angels Grove, this is quite common. The town's people are calling this entity the "Ripper." The thing is that it has been affecting the Naked Devil buisness at night.
         Lucy isn't too happy about it and she is too busy to put an offical request up for it. You believe that helping her out will not only put gold in your pocket, but will also keep more bounties coming.
@@ -96,11 +96,11 @@ const ripper = {
             up high and getting ready to strike. The figure doesn't make it in time when you spark the lamp up and shine the light on the mysterious entity. The briliant light of the lamp 
             shines directly on the shadow. You start to hear cries of anguish from the fiend as they stop in their tracks. Within the allyway, you see a small barrel of oil for soaking the torches in.
             You throw the lamp at the barrel of oil and an even greater flame is produced. The Ripper drops the bloody sickle and disinigrates from bathing in the light of the flames.
-            With the Ripper gone, you grab the sickle to bring back as proof for the victory to Lucy. She is happy that you have taken the time to help her and rewards you with 90 gold.
+            With the Ripper gone, you grab the sickle to bring back as proof for the victory to Lucy. She is happy that you have taken the time to help her and rewards you with 30 gold.
             Hopefully The Naked Devil buisness can go back to normal.
         `,
         hp: 0,
-        gold: 90
+        gold: 30
     }]
 };
 
@@ -111,9 +111,8 @@ const thief = {
         top: '20%',
         left: '40%'
     },
-    image: '',
-    // audio: 'treasure-chests.wav',
-    // action: 'chest-opening.wav',
+    image: 'suspects.png',
+  
     description: `
         You see a post on the Bounty Board about a thief that is stealing from the merchants here in Angels Grove. You decide to take the quest, because it would be hard to get supplies if they are being stolen.
         You decide to take the quest and go check out the merchant who posted it. On your way to the the store, you find a commotion happening in front of your destination. Their are three people in front of the 
@@ -144,7 +143,7 @@ const thief = {
         description: 'It was the thief!',
         result: `You decide that it was the suspect. I mean they have already taken the time to detain them. Maybe your input isn't needed and you go on your way to report. When you make your report, Lucy is happy of the completed bounty. As soon as you were about to get the
         gold, you hear that there is still a theif running around stealing from locals. It turns out that they took an innocent person to prison and that they were executed. Lucy then puts the gold away and you live with the guilt of helping to send an innocent human to their death.
-        you take 10 damage from the shame of your choice..`,
+        You take 10 damage from the shame of your choice..`,
         hp: -10,
         gold: 0
     }]

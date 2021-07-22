@@ -19,7 +19,7 @@ if (!bounty) {
 
 
 const title = document.getElementById('title');
-// const image = document.getElementById('image');
+const image = document.getElementById('image');
 
 const description = document.getElementById('description');
 const choiceForm = document.getElementById('choice-form');
@@ -30,6 +30,7 @@ const duskDescription = document.getElementById('dusk-description');
 
 // bounty that fill in the dom
 title.textContent = bounty.title;
+image.src = '../assets/' + bounty.image;
 
 
 description.textContent = bounty.description;
